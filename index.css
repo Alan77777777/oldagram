@@ -1,0 +1,146 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: whitesmoke;
+}
+
+h4,
+p {
+    margin: 0px;
+}
+
+p {
+    font-weight: 400;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#github:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.container {
+    margin: 0px auto;
+    width: 375px;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+header {
+    border-bottom: 1px #C6C6C6 solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.non-images {
+    padding: 5px 10px;
+}
+
+.non-images-super {
+    padding: 10px 10px;
+    margin: 0px;
+}
+
+.section {
+    border-bottom: solid 25px #c6c6c642;
+}
+
+.lastS {
+    border-bottom: none;
+}
+
+.user {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+.logo {
+    width: 130px;
+    height: 50px;
+}
+
+.list {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.images {
+    width: 375px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.buttons img {
+    width: 23px;
+}
+
+.likes {
+    padding: 0px 10px;
+}
+
+.user-cm {
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bold;
+    font-weight: 700;
+}
+
+.comment {
+    font-weight: 400;
+}
+
+.icons li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#firstIMG {
+    width: 375px;
+    height: 375px;
+    background-size: cover;
+}
+
+.like,
+.commentary,
+.message {
+    width: 23px;
+    height: 23px;
+    background-size: cover;
+}
+
+.like {
+    background-image: url(./images/icon-heart.png);
+}
+
+.liked {
+    background-image: url(./images/icon-heart-red.png);
+}
+
+.commentary {
+    background-image: url(./images/icon-comment.png);
+}
+
+.message {
+    background-image: url(./images/icon-dm.png);
+}
