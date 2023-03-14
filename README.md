@@ -13,7 +13,7 @@
 
 ### Links 
 
-🔗 Live Site URL: [https://basket-scoreboard.app/](https://basket-scoreboard.app/)
+🔗 Live Site URL: [https://oldgramfromscratch.netlify.app/](https://oldgramfromscratch.netlify.app/)
 
 ### Built with 
 
